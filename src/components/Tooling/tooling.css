@@ -1,0 +1,37 @@
+.tooling{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 125vh;
+    width: 100%;
+    background-image: url('../../images/illustration-laptop-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -43% 50%;
+    background-size: 60%;
+}
+
+.tooling-content{
+    width: 45%;
+    margin-right: 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+.tooling-content-block{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.tooling-content-title{
+    font-size: 28px;
+    color: hsl(208, 49%, 24%);
+    
+}
+
+.tooling-content-text{
+    line-height: 2em;
+    font-size: 18px;
+    color: hsl(207, 13%, 34%);
+}

@@ -1,0 +1,44 @@
+.infra{
+    display: flex;
+    width: 100%;
+    background-image: url('../../images/bg-pattern-circles.svg'), linear-gradient(90deg, hsl(237, 17%, 21%) 50%, hsl(237, 23%, 32%) 100%);
+    background-repeat: no-repeat;
+    background-position: -35% 80%;
+    justify-content: flex-end;
+    height: 50vh;
+    position: relative;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 3em;
+}
+
+.infra-bg-cel{
+    width: 50%;
+    top: -4em;
+    left: 0;
+    height: 100vh;
+    background-image: url('../../images/illustration-phones.svg');
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    position: absolute;
+}
+
+.infra-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 9em;
+    gap: 1.5em;
+}
+
+.infra-content-title{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.infra-content-text{
+    line-height: 2em;
+    color: hsl(240, 4%, 85%)
+}
