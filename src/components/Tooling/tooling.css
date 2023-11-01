@@ -2,7 +2,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 125vh;
+    height: fit-content;
+    padding: 4em 0;
     width: 100%;
     background-image: url('../../images/illustration-laptop-desktop.svg');
     background-repeat: no-repeat;
@@ -34,4 +35,28 @@
     line-height: 2em;
     font-size: 18px;
     color: hsl(207, 13%, 34%);
+}
+
+@media screen and (max-width: 1150px) {
+    .tooling-content{
+        margin-right: 1em;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .tooling{
+        background-image: url('../../images/illustration-laptop-mobile.svg');
+        justify-content: center;
+        text-align: center;
+        background-position: 50% 0;
+        background-size: 100%;
+        padding-top: 75%;
+    }
+
+    .tooling-content{
+        width: 100%;
+        padding: 1em;
+        margin: 0;
+    }
 }

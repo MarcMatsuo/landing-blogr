@@ -16,6 +16,9 @@ const Header = () => {
                 <button className='intro-btn login'>Login</button>
                 <button className='intro-btn signup'>Sign Up</button>
             </div>
+            <div className='header-menu-hamburguer'>
+                <i className="fa-solid fa-bars"></i>
+            </div>
         </div>
     );
 }

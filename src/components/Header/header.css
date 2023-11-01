@@ -30,6 +30,10 @@
     color: white;
 }
 
+.list-item:hover{
+    cursor: pointer;
+}
+
 .login{
     background: transparent;
     border: transparent;
@@ -42,4 +46,20 @@
     border-color: transparent;
     color: hsl(353, 100%, 62%);
     padding: 0.8em 2em !important;
+}
+
+.header-menu-hamburguer{
+    color: white;
+    font-size: 28px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header-informations-list, .header-login{
+        display: none;
+    }
+
+    .header-menu-hamburguer{
+        display: block;
+    }
 }
